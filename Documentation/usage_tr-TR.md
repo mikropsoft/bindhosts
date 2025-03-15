@@ -23,6 +23,7 @@ Magisk/KernelSU/APatch için bindhosts’un çeşitli seçeneklerine aşağıdak
     bindhosts --tcpdump         Ağ modunuzda (wifi veya veri) mevcut aktif IP adreslerini koklar (Cloudflare gibi DNS hizmetlerinin kullanılmadığından emin olun)
     bindhosts --query <URL>     Hosts dosyasında desen araması yapar
     bindhosts --force-reset     Bindhosts’u zorla sıfırlar, yani hosts dosyasını sıfır IP’ye geri döndürür
+    bindhosts --force-update    güncellemeye zorlar
     bindhosts --custom-cron     Bindhosts için bir cronjob’un çalışacağı günün saatini tanımlar
     bindhosts --enable-cron     Bindhosts için cronjob görevini etkinleştirir ve şu anda kullandığınız listelerin IP’lerini güncellemek için varsayılan olarak sabah 10’da çalışır
     bindhosts --disable-cron    Daha önce ayarlanmış cronjob görevini devre dışı bırakır ve siler
